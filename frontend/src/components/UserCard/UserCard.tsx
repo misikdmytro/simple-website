@@ -12,12 +12,12 @@ function UserCard(props: UserCardProps): JSX.Element {
     } = props
 
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card>
             <CardMedia
                 component="img"
                 height="140"
                 image={avatar}
-                alt="green iguana"
+                alt="avatar"
             />
             <CardContent>
                 <h1>Name: {name}</h1>
